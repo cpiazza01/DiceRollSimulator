@@ -1,0 +1,79 @@
+/* fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Notable', sans-serif;
+*/
+
+/* GLOBAL STYLES  */
+body {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h2 {
+  display: inline;
+}
+/* END GLOBAL STYLES */
+/* HEADING */
+.heading {
+font-family: 'Notable', sans-serif;
+padding: 50px;
+color: white;
+background-color: black;
+}
+/* END HEADING */
+/* MAIN CONTENT */
+.container {
+  background-color: white;
+  color: black;
+}
+
+.players {
+  padding: 50px 0;
+}
+
+.players img {
+  padding-top: 25px;
+}
+
+.btn-roll {
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+.result {
+  display: none;
+}
+
+.visible {
+  display: block;
+  font-size: 2rem;
+}
+/* END MAIN CONTENT */
+/* FOOTER */
+#footer .container {
+  padding-top: 50px;
+}
+/* MEDIA QUERIES */
+
+@media (max-width: 405px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .players h2 {
+    font-size: 1.5rem;
+  }
+
+  .players img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 770px) {
+
+  .player1 {
+    padding: 0 10px 0 0;
+  }
+  .player2 {
+    padding: 0 0 0 10px;
+  }
+}
